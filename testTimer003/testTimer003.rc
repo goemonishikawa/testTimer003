@@ -1,0 +1,189 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Italiano (Italia) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ITA)
+#ifdef _WIN32
+LANGUAGE LANG_ITALIAN, SUBLANG_ITALIAN
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ITA)\r\n"
+    "LANGUAGE 16, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#include ""res\\testTimer003.rc2""  // risorse non Microsoft Visual C++ modificate\r\n"
+    "#include ""afxres.rc""     // Componenti standard\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\testTimer003.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_TESTTIMER003_DIALOG DIALOGEX 0, 0, 520, 199
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CAPTION
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "testTimer003"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,222,156,42,16
+    PUSHBUTTON      "Annulla",IDCANCEL,270,156,44,16
+    PUSHBUTTON      "Button1",IDC_BUTTON1,276,180,38,14
+    EDITTEXT        IDC_EDIT1,6,156,42,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT2,54,156,96,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT3,156,180,42,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT4,66,180,84,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT5,6,180,54,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SLIDER1,"msctls_trackbar32",TBS_AUTOTICKS | TBS_BOTH | TBS_ENABLESELRANGE | TBS_TOOLTIPS | WS_BORDER | WS_TABSTOP,6,0,408,30,WS_EX_DLGMODALFRAME
+    CONTROL         "",IDC_SLIDER2,"msctls_trackbar32",TBS_AUTOTICKS | TBS_BOTH | TBS_ENABLESELRANGE | TBS_TOOLTIPS | WS_BORDER | WS_TABSTOP,6,30,408,30,WS_EX_DLGMODALFRAME | WS_EX_TRANSPARENT
+    CONTROL         "",IDC_SLIDER3,"msctls_trackbar32",TBS_AUTOTICKS | TBS_BOTH | TBS_ENABLESELRANGE | TBS_TOOLTIPS | WS_BORDER | WS_TABSTOP,6,60,408,30,WS_EX_DLGMODALFRAME | WS_EX_STATICEDGE
+    CONTROL         "",IDC_SLIDER4,"msctls_trackbar32",TBS_AUTOTICKS | TBS_BOTH | TBS_ENABLESELRANGE | TBS_TOOLTIPS | WS_BORDER | WS_TABSTOP,6,90,408,30,WS_EX_DLGMODALFRAME | WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT6,420,6,24,18,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT7,420,36,24,18,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT8,420,66,24,18,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT9,420,96,24,18,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SLIDER5,"msctls_trackbar32",TBS_AUTOTICKS | TBS_BOTH | TBS_ENABLESELRANGE | TBS_TOOLTIPS | WS_BORDER | WS_TABSTOP,6,120,408,30,WS_EX_DLGMODALFRAME | WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT10,420,126,24,18,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT11,204,180,66,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT12,156,156,66,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT13,450,6,66,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT14,450,36,66,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT15,450,66,66,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT16,450,96,66,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT17,450,126,66,14,ES_AUTOHSCROLL
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041004e4"
+        BEGIN
+            VALUE "CompanyName", "TODO: <Nome società>"
+            VALUE "FileDescription", "TODO: <Descrizione file>"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "testTimer003.exe"
+            VALUE "LegalCopyright", "TODO: (c) <Nome società>. Tutti i diritti riservati."
+            VALUE "OriginalFilename", "testTimer003.exe"
+            VALUE "ProductName", "TODO: <Nome prodotto>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x410, 1252
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_TESTTIMER003_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 513
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 192
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Italiano (Italia) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ITA)
+LANGUAGE 16, 1
+#pragma code_page(1252)
+#include "res\testTimer003.rc2"  // risorse non Microsoft Visual C++ modificate
+#include "afxres.rc"     // Componenti standard
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
